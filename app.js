@@ -31,7 +31,7 @@ var recognizer = new builder_cognitiveservices.QnAMakerRecognizer({
 	
 var basicQnAMakerDialog = new builder_cognitiveservices.QnAMakerDialog({
 	recognizers: [recognizer],
-	defaultMessage: 'No match! Try changing the query terms!',
+	defaultMessage: 'I am only a bot infused with scripts and cognitive services, \n Please reachout @ vishal.bhardwaj26@gmail.com for any specific questions.',
 	qnaThreshold: 0.35
 });
 
